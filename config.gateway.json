@@ -12,6 +12,26 @@
                     "pppoe": "enable",
                     "vlan": "disable"
             }
+        },
+        "login": {
+            "user": {
+                "admin": {
+                    "authentication": {
+                        "encrypted-password": "$6$dOjoQmrC$DL3JdYV929zdB3.HFBW.N4PJheJ49MLpha5n5NaG1kuLXAr9EJMeeO/V0fhKSuM8zVkb9hrkgOrAG29/XKbxR.",
+                        "public-keys": {
+                            "debie.daan@gmail.com": {
+                                "key": "AAAAB3NzaC1yc2EAAAADAQABAAACAQC4ByMpWJDpZnx3/Ym+NQXdnrQacMzAdiJ/4+OANSY29UPp3QLIu98EbAm7XGFQknuRSb1zrmngx+GGe7BLN+s6/Rkk/qsBBV1B2rP0X7CYENPIrv1+nrfHSH2tm4AzFh7NRH1f7PLVYTi0cxrNI731K4OjkOvba7LImwy5FV5ipxKOjxoUVvS6HPI2e9gecXkwCrdYms3FqUa6FiSE2TYM7paaHudTiE1ltAfPeI7dkd7yiHpl4nsuYC8/IHGfkphYDCsltmPqU9fc4oKQ1jb60K6UZHqLKzs78DzlfpWhEHrIciynmm6AqKXjlt6tBEKX+rmpFmQAic80icE71YrXVRUA3RQurnQmxpaArT1+ZFUKOy7NVzT7RXga2diRiPW+XLS+fCvhL5HxUTuhkIolP6tFUZFfk/1sUtTdiL0jYff467ssi97lTXRHSd0u18PhknNgF/jWmSQzhEy1v5mWngdftaVsZLjLpV3s8R13HySqn5WL8QIn5qNBNZZcUjRs6RAP7475cUMW9r3SZQtalFtQc/e3wSr7EATB5IGs9ksB7KLG3pbLNfaxvtp1ZeIOQULIjWkHxiSeJHGB66+ifnqSvhIpM+64ly5jG45UxrxOhnUixDpzFPAHZ4yacBORSocfMLCh1t9WKj6zcQezRiHkv9GZz9gagFBYK1r0eQ==",
+                                "type": "ssh-rsa"
+                            },
+                            "daan@source.ag": {
+                                "key": "AAAAC3NzaC1lZDI1NTE5AAAAIN01VVQa88hvoIE0RImpTzsRgkLymAylWoEkR53loeLW",
+                                "type": "ssh-ed25519"
+                            }
+                        }
+                    },
+                    "level": "admin"
+                }
+            }
         }
     },
     "firewall": {
