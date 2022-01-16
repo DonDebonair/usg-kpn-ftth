@@ -236,6 +236,14 @@
                     "outbound-interface": "pppoe2"
                 }
             }
+        },
+        "mdns": {
+            "repeater": {
+                "interface": [
+                    "eth0",
+                    "eth0.66"
+                ]
+            }
         }
     }
 }
