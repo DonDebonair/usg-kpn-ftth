@@ -35,6 +35,7 @@
         }
     },
     "firewall": {
+        "log-martians": "disable",
         "ipv6-name": {
             "WANv6_LOCAL" : {
                 "rule": {
